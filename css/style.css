@@ -1,0 +1,201 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+#data_extention {
+    text-align: left;
+}
+.bg_color_strong {
+    /* background-color: #3FC1C9; */
+    /* background-color: #236d7a; */
+    background-color: #578CA9;
+}
+.sail_ship{
+    position: absolute;
+    left: 70%;
+    margin: 0;
+    padding: 0;
+    top: -15px;
+}
+.sail_ship_right{
+    position: absolute;
+    left: 20%;
+    margin: 0;
+    padding: 0;
+    top: -15px;
+}
+
+.ship_move_rl{
+    margin: 0;
+    padding: 0;
+}
+.ship_move_lr{
+    margin: 0;
+    padding: 0;
+}
+.flip-horizontal {
+    transform: scaleX(-1);
+}
+#title_sec{
+    padding-top: 60px;
+    height: 100vh;
+}
+.bg_color_decent {
+    background-color: #F5F5F5;
+}
+.main_pic
+{
+    max-height: 30vh;
+}
+
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+.typewriter h2, .typewriter p{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid #364F6B;  */
+    /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end;
+    width: 100%;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #364F6B; }
+}
+#work_sec li
+{
+    list-style: none;
+}
+.circle {
+    padding: 13px 13px;
+    border-radius: 50%;
+    background-color: #364F6B;
+    color: #F5F5F5;
+    max-height: 500px;
+    
+    z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+    align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    /* border-left: 3px solid #ED8D8D; */
+    z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+.timeline hr {
+    border-top: 3px solid #364F6B;
+    opacity: 1;
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+.timeline .corner {
+    border: 3px solid #364F6B;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
+
+.bg_color_primary
+{
+    background-color: #364F6B;
+}
+
+.collapsed
+{
+    background-color: #F5F5F5;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #364F6B;
+    color: #F5F5F5;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2, h3, h4, h5{
+    font-family: 'Merriweather', serif;
+}
+
+span {
+    color: #364F6B;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0; /* Start with full transparency (invisible) */
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1; /* End with full opacity (visible) */
+        transform: translateX(-0%);
+    }
+}
+
+/* Apply the 'fade-in' animation to the elements */
+.fade-in-element {
+    animation: fade-in 3s ease-in; /* Apply the animation with a 1.5s duration and ease-in-out timing function */
+}
+
+.move_in {
+    position: relative;
+    left: -100px;
+    opacity: 0;
+}
