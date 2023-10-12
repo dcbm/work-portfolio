@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DCBM Blog</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+<body data-bs-spy="scroll">
+    
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg_color_strong px-5 pt-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DCBM </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#summary_sec">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#architecture_sec">Architecture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#execution_sec">Execution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ressources_sec">Ressources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <h1>ML with Azure</h1>
+                    <p><i>automize and optimize</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="summary_sec" class="bg_color_decent mt-5 py-5">
+        <div class="container">
+            <h2>Plattform made for <span>everybody</span></h2>
+            <p>
+                When it comes to big and mature businesses transformation projects face a varirity of challanges. 
+                <ul>
+                    <li>Heterogenity: Diversity often characterizes large corporations, particularly in their approach to harmonizing technology stacks. Over time, a myriad of components may find their way into the ecosystem, spanning diverse database systems, programming languages, and integrated development environments (IDEs).</li>
+                    <li>Technical Challenges: Prototypes are sometimes misconstrued as finalized solutions, and colleagues frequently shift departments, resulting in knowledge attrition due to workforce turnover. Inadequate documentation exacerbates these issues, rendering the list of challenges seemingly interminable.</li>
+                    <li>Management Transition: Leadership changes, bringing with it new visions and shifts in the company's strategic direction.</li>
+                    <li>Comfort: Over time, employees grow increasingly comfortable in a familiar work environment, making even minor disruptions feel disproportionately challenging.</li>
+                    <li>Job Descriptions: Can vary as widely as the individuals themselves. While everyone may share the same job title, they often employ entirely distinct tools and methods tailored to their specific domains.</li>
+                </ul>
+                I played a pivotal role in a large-scale transformation project that had a profound impact on hundreds of individuals, an experience I'm eager to share in this blog post. To be perfectly candid, this endeavor marked my inaugural foray into the roles of Architect and Cloud Solution Designer. I admittedly lacked extensive experience in cloud technologies, but my unwavering motivation and love for challenges propelled me forward.
+            </p>
+            <div class="container my-5">
+                <div class="p-5 text-center bg-body-tertiary rounded-3">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <h2><i>The Cloud opens a whole new possibilities to get out of comfort zones.</i></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>It all began within the comfort of my familiar terrain. Let's kick off by delving into some indisputable facts that were instrumental in the project's success. A pivotal factor in my hiring was my proficiency in advanced software development using R. Beyond the conventional data exploration and machine learning, I possessed the rare skill of conducting sophisticated object-oriented programming within the R ecosystem.
+
+                Our challenge was to design a unified platform catering to the needs of Data Scientists, Data Analysts, and Machine Learning Engineers. In the context of larger organizations, clear demarcations exist between various project phases. For instance, we confronted the necessity of implementing a stringent division between development and production, a divide traditionally bridged by DevOps but proving less than optimal for complex ML tasks. This gave rise to the imperative need for a dedicated MLOps team. </p>
+            <div class="container my-5">
+                <div class="p-5 text-center bg-body-tertiary rounded-3">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <h2><i>Getting help from experts is not a weakness</i></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>The workplace mentality was notably 'top-down,' with solutions being devised exclusively by a dedicated infrastructure team and subsequently rolled out to developers, all without involving them in the assessment or design phase. This approach posed significant challenges, and I found myself engaged in numerous debates until I successfully advocated for the inclusion of data scientists in pivotal meetings. Additionally, I championed the active involvement of the MLOps team in crucial decisions and tasks.
+
+                My objectives were twofold: firstly, I aimed to bring data scientists into the fold to better understand their unique workflow. Simultaneously, I sought to cultivate a united front for support, bolstered by the alliance of data scientists, against management decisions and the general user base. I quickly realized that in the context of transformation, where opinions weigh heavily, having a vocal support system was invaluable. It was a lesson learned through perseverance and experience.</p>
+            
+        </div>
+    </section>
+    <section id="architecture_sec">
+        <div class="container my-5">
+            <h2>Architecture made with and by the users</h2>
+            <p>I entered this role as a complete newcomer, possessing zero prior knowledge of the company, the intricacies of the cloud technology stack, or the data science projects undertaken by my colleagues. Fortunately, a significant portion of the tools and technologies had already been selected and adopted before my arrival, so my primary task was to ensure their seamless integration and functionality. On the surface, it might seem straightforward, but in practice, it presented both its share of ease and challenges.</p>
+            <div class="container my-5">
+                <div class="p-5 text-center bg-body-tertiary rounded-3">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <h4><i>We are still learning everyday something new</i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Picture diving into the frigid waters of Norway's icy sea, only to collide with a solid sheet of ice. Breaking through, you're suddenly engulfed in the piercing cold, but there's a twist - you realize you don't know how to swim. Time for a crash course in survival. That's an apt metaphor for my first few months on the job. I found myself navigating uncharted territory, learning the ins and outs of various tools while attempting to orchestrate their harmonious integration into more comprehensive solutions and processes, all to serve our end users.
+
+                Regrettably, I can't divulge too many specifics about the final results, but it closely aligns with the approach described [LINK]. Interestingly, we acquired these resources after I had already laid the foundation, designing pipelines and infrastructure setups. My guiding principles were comfort and empowerment. Colleagues were accustomed to streamlined processes and user-friendly tools that required minimal effort to master. Adapting to a more intricate system was a challenge they had to confront.
+                
+                Empowerment played a pivotal role. Many complex, automated processes were obscured, with no single individual possessing a comprehensive overview of all the components. Should something break, it necessitated the involvement of different departments, each with distinct access rights. My objective was to demystify this 'black box,' granting data scientists insight into the process, and thereby, the power to take charge and influence it.
+            </p>
+            <p>It holds true that minimizing the number of participants in a process can enhance its efficiency, although it's essential to emphasize the conditional 'can be.' In sizable corporations, processes often grow intricate, involving many individuals who comprehend only fragments of the broader landscape. As a newcomer in this organization, my initial inclination was to grasp every facet of these processes. However, in the project's nascent stages, I swiftly realized that such an approach wasn't conducive to a seamless transition to the cloud.
+
+                My foremost intention was to prevent the migration of on-premises issues to the cloud, particularly since our management discouraged a simplistic 'lift and shift' strategy. Convincing my colleagues of this was no small feat, as change proved unsettling and uninviting. Architecturally, this led me to place substantial emphasis on leveraging SaaS tools available within the Azure ecosystem.
+                
+                While I'm unable to provide an exhaustive breakdown at this moment, I can offer some key highlights.:
+            <ul>
+                <li>
+                    For ad hoc analysis or exploratory tasks, I opted for a versatile trio of tools: Azure ML, Azure Synapse Analytics, and Microsoft Power BI. The choice among these tools could be tailored to the user's familiarity or specific use case. As our primary focus revolved around one-time analyses and catered to a diverse user base, the predominant challenge lay in efficiently establishing data connections across all these tools, while simultaneously ensuring the correct allocation of access rights at the user level.
+                </li>
+                <li>
+                    Azure ML serves as the linchpin of our infrastructure. Data Scientists primarily employ notebooks for prototyping and collaborate closely with my MLOps team to construct robust pipelines for model training and scoring. Azure ML is a prime example of a tool crucial for both use cases that necessitate model development and those targeting production with recurrent scoring requirements. In response, I devised an initial component setup for various pipelines.Models found their execution in endpoints deployed within Azure ML, and we seamlessly operated them within an Azure Kubernetes Service. To optimize runtime and control costs, we thoughtfully configured different instance sizes on AKS, each tailored to specific workloads.
+                </li>
+                <li>When we talk about working with SQL, I was building a package to easy access our Azure DataLake Storage via SQL from Azure ML, or just use Azure Synapse Analytics, again depending on the knowledge.Azure Synapse Analytics was also important for two more reasons. Firstly to work direcly on the datalake with spark and secondly to develop data piplines (we could have used Azure Data Factory as well, but a requirement was to keep the toolstack to a minimum). With the part done in Azure ML (model serving within an endpoint) I could build a pipeline component that scored data via synapse, in that way it was possible to reduce model scoring as a transformation step in a common ETL pipeline.</li>
+                <li>Our setup meticulously enforces a clear demarcation between development and production systems, necessitating the utilization of an additional tool - Azure DevOps. This pivotal tool serves as the nexus for triggering all training pipelines and orchestrating the deployment of our models within endpoints. Each deployment into the production system is executed with diligence, contingent upon the confirmation from a Data Scientist that the test results align with expectations. In these deployments, only the model, as an artifact, is introduced into the endpoint of the production system.</li>
+            </ul> </p>
+        </div>
+    </section>
+    <section id="execution_sec">
+        <div class="container my-5">
+        <div class="container my-5">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <h4><i>Trust in the process</i></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>
+            Over the span of 15 months, I diligently constructed this platform, navigating a myriad of lessons learned and making necessary adaptations along the way in response to evolving requirements. I wholeheartedly advocate for a bottom-up approach, ensuring that each intricate detail aligns harmoniously with the broader perspective. To encapsulate the journey succinctly, these are the pivotal steps taken:"
+        </p>
+        <pre>
+            <code>
+                1. Azure ML
+                    1.1 Get familiar with Azure ML and SDKs
+                    1.2 sketch a data science process with simple data.
+                    1.3 Build the process in one notebook.
+                    1.4 Encapsulate parts of the process in Azure ML components.
+                    1.5 Run trainings pipeline 
+                    1.6 Create process for model serving in endpoints
+                2. Azure Synapse Analytics
+                    2.1 Investigate Synapse Pipelines
+                    2.2 create pipeline for batch endpoint rest calls.
+                    2.3 Integration in bigger ETL processes.
+                3. Azure DevOps
+                    3.1 Get familiar with Azure DevOps
+                    3.2 use agents to connect to Azure ML 
+                    3.3 run notebooks in Azure ML
+            </code>
+        </pre>
+        <p>
+            While these represent the fundamental steps, it's essential to note that numerous 'inter-human' interactions are not accounted for in this concise overview. Additionally, substantial big data engineering tasks in Azure Synapse, which demanded significant learning, while integral to the project, are not detailed here, as they weren't strictly pertinent to the final setup.
+
+            In the grand scheme of this project, marketing and onboarding proved to be paramount. The magnitude of change often left my colleagues overwhelmed, necessitating a substantial portion of my work time to distill my acquired knowledge and initial pipelines into a coherent documentation. This foundation allowed for the creation of a comprehensive user manual and multiple tutorials, easing the transition and ensuring a smoother onboarding process.
+        </p>
+    </div>
+    </section>
+    <section id="ressources_sec">
+    </section>
+    <section id="footer" class="bg_color_strong">
+        <div class="container px-5 pt-2">
+            <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-2 px-5 fixed-bottom bg_color_strong">
+                <div class="col-md-4 d-flex p-2 align-items-center">
+                    <span class="mb-3  text-body-secondary"></span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/dominic-b%C3%B6hm/"><img src="./../../images/linkedin.svg" alt=""></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://github.com/dcbm"><img src="./../../images/github.svg" alt=""></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://stackoverflow.com/users/8282674/domingo"><img src="./../../images/stack-overflow.svg" alt=""></a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
